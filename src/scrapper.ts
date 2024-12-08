@@ -1,4 +1,5 @@
-// Example: Scraping the page title
+// @ts-nocheck
+
 const data = {
   title: document.title,
   url: window.location.href,

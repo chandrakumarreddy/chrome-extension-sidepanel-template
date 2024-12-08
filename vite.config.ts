@@ -13,4 +13,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        app: "index.html", // Main React entry point
+      },
+    },
+  },
 });
